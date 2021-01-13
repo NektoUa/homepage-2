@@ -152,10 +152,10 @@
     text-decoration: underline;
   }
   code {
-    border: 1px solid #BDBDBD;
+    border: 1px solid #bdbdbd;
     padding: 0em 0.25em;
     border-radius: 3px;
-    background: #EEEEEE;
+    background: #eeeeee;
     font-size: 95%;
   }
   
@@ -311,7 +311,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     align-items: stretch;
-    padding: 0;
+    padding: 0;+
     /**
      * Temporary hack to be sure avatar
      * is rendered on print preview
@@ -338,6 +338,7 @@
   }
   
   /* Columns */
+
   /* Standard 16 column */
   .grid > .column:not(.row),
   .grid > .row > .column {
@@ -354,6 +355,7 @@
   }
   
   /* Columns */
+  
   /* Vertical padding when no rows */
   .grid > .column:not(.row) {
     padding-top: 1rem;
